@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: var(--azul-escuro);
+  background-color: var(--branco);
+}
+
+h1 {
+  color: var(--azul-escuro);
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+ul {
+  padding: 0px;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
