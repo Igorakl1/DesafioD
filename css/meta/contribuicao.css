@@ -1,7 +1,8 @@
 .contribuicao-bg {
-  font-size: 2.5rem;
-  margin: 20px 0px 20px 40px;
-  color: var(--azul-escuro);
+  background-color: #eef3f8;
+  padding: 20px;
+  margin-bottom: 30px;
+  margin-top: 30px;
 }
 
 .contribuicao-dc {

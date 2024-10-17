@@ -1,89 +1,14 @@
-.footer-bg {
-  background-color: var(--branco);
-  margin-top: 20px;
-  padding: 20px 10px;
-  color: black;
-  text-align: center;
-  font-family: Arial, sans-serif;
-}
-
-.footer-formulario h2 {
-  font-size: 22px;
-  margin-bottom: 15px;
-  color: var(--cinza);
-  text-transform: uppercase;
-  letter-spacing: 1px;
-}
-
-.footer-formulario form {
-  max-width: 300px;
-  margin: 0 auto;
-  text-align: left;
-}
-
-.footer-formulario label {
-  font-size: 13px;
-  display: block;
-  color: #000000;
-}
-
-.footer-formulario input[type="text"],
-.footer-formulario input[type="email"],
-.footer-formulario input[type="password"],
-.footer-formulario input[type="tel"],
-.footer-formulario input[type="date"],
-.footer-formulario select {
-  width: 100%;
-  padding: 8px;
-  border: 1px solid #000000;
-  background-color: #d6d6d6;
-  color: #2c3e50;
-  font-size: 13px;
-}
-
-.footer-formulario input[type="submit"],
-.footer-formulario input[type="reset"] {
-  width: 48%;
-  padding: 8px;
-  border: none;
-  border-radius: 5px;
-  font-size: 14px;
-  cursor: pointer;
-  background-color: var(--cinza);
-  margin-bottom: 5px;
-  color: white;
-  text-transform: uppercase;
-  margin-right: 4%;
-  margin-left: 0;
-}
-
-.footer-formulario input[type="reset"] {
+.footer {
   background-color: var(--cinza-claro);
-  color: black;
-}
-
-.footer-formulario input[type="submit"]:hover {
-  background-color: #2980b9;
-}
-
-.footer-formulario input[type="reset"]:hover {
-  background-color: #c0392b;
-}
-
-.footer-formulario {
-  max-width: 400px;
-  margin: 0 auto;
+  color: var(--preto);
+  text-align: center;
   padding: 20px;
-  background-color: #f9f9f9; 
-  border: 2px solid #ccc; 
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  position: relative;
+  top: 20px;
+  bottom: 0;
+  width: 100%;
 }
 
-@media (max-width: 480px) {
-  .footer-formulario input[type="submit"],
-  .footer-formulario input[type="reset"] {
-    width: 100%;
-    margin-bottom: 10px;
-  }
+.footer p {
+  margin: 10px 0;
 }

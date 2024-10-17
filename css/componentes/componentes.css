@@ -1,7 +1,9 @@
 .botao {
   display: inline-block;
   padding: 6px 12px;
-  margin: 0px 0px 20px 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 20px;
   background-color: var(--azul);
   color: var(--branco);
   font-weight: bold;
