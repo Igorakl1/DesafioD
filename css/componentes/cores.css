@@ -1,13 +1,6 @@
 :root {
-  --preto: #000;
-  --preto-claro: rgb(133, 133, 133);
-  --cinza: #888;
-  --cinza-claro: #f4f4f4;
-  --azul: rgb(20, 20, 44);
-  --branco: #fff;
-  --amarelo: #ffcc00;
-  --azul-escuro: #2c3e50;
-  --azul-claro: rgb(34, 34, 71);
-  --cinza-bg: #6c97a1;
-  --vermelho: rgb(158, 103, 103);
+  --color01: #535eb1;
+  --color02: #7fa1c3;
+  --color03: #e2dad6;
+  --color04: #f5eded;
 }

@@ -5,7 +5,7 @@
 }
 
 .cursos-2024 {
-  color: #1e3a8a;
+  color: var(--color02);
   margin-left: 20px;
   margin-top: 20px;
   font-weight: bold;
@@ -13,9 +13,11 @@
 }
 
 .introducao-bg {
-  background-color: var(--branco);
-  padding: 50px 20px;
-  text-align: center;
+  display: grid;
+  gap: 20px;
+  max-width: 1370px;
+  margin: 0 auto;
+  padding-top: 20px;
 }
 
 .introducao-bg h1 {
@@ -24,7 +26,7 @@
 
 .introducao-bg p {
   font-size: 1.325rem;
-  color: var(--preto);
+  color: black;
   margin-bottom: 30px;
 }
 
@@ -40,11 +42,6 @@
   padding: 20px;
   border-radius: 4px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease;
-}
-
-.curso-item:hover {
-  transform: translateY(-5px);
 }
 
 .curso-item img {
@@ -63,16 +60,20 @@
   display: block;
   font-size: 1rem;
   font-weight: bold;
-  color: var(--azul-escuro);
-  margin: 15px 0;
+  color: black;
+  margin: 20px 0;
+  font-family: "Poppins", sans-serif;
 }
 
 .curso-item p {
-  color: var(--cinza);
+  color: gray;
+  opacity: 0.6;
+  font-size: 1.125rem;
+  text-align: justify;
 }
 
 .curso-item .inscricoes {
-  color: var(--amarelo);
+  color: red;
   font-weight: bold;
 }
 

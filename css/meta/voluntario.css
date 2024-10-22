@@ -1,15 +1,30 @@
 .voluntario-bg {
+  font-size: 1.6rem;
   background-color: #eef3f8;
+  font-size: 2.5rem;
   padding: 20px;
   margin-bottom: 30px;
-  margin-top: 30px;
 }
 
 .voluntario-dc {
-  margin-left: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  margin: 40px;
   color: var(--cinza);
+  align-items: center;
+  text-align: justify;
 }
 
-span {
-  line-height: 1.725;
+.momentos {
+  display: grid;
+  grid-template-columns: 1fr;
+  position: absolute;
+  right: 480px;
+  top: 735px;
+  width: 290px;
+}
+
+.momentos img {
+  max-width: 450px;
 }
