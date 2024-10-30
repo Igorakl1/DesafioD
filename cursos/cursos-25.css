@@ -1,10 +1,17 @@
-.cursos-bg {
+.cursos-2025 {
+  color: var(--color02);
+  margin-left: 20px;
+  margin-top: 20px;
+  font-weight: bold;
+  margin-top: -20px;
+  margin-bottom: 40px;
 }
 
 .cursos-bg h1 {
   margin-top: 20px;
-  font-size: 2.8rem;
+  font-size: 2.6rem;
   color: var(--color02);
+  text-align: start;
 }
 
 .cursos-bg p {
