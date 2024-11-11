@@ -1,9 +1,7 @@
 .cursos-2025 {
   color: var(--color02);
   margin-left: 20px;
-  margin-top: 20px;
   font-weight: bold;
-  margin-top: -20px;
   margin-bottom: 40px;
 }
 
@@ -33,7 +31,6 @@
 .curso-item {
   display: flex;
   flex-direction: column;
-  row-gap: 20px;
   background-color: rgb(245, 245, 245);
   color: black;
 }
