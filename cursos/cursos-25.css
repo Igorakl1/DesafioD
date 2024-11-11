@@ -31,24 +31,24 @@
 }
 
 .curso-item {
-  padding: 20px;
-  border-radius: 4px;
-  box-shadow: 0 4px 6px 4px rgba(0, 0, 0, 0.1);
-  text-align: left;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  background-color: rgb(245, 245, 245);
+  color: black;
 }
 
 .curso-item img {
   width: 100%;
   height: 200px;
   object-fit: cover;
-  border-radius: 4px;
 }
 
 .curso-item p {
+  padding: 0px 20px;
   color: var(--color02);
   font-size: 1.125rem;
-  margin-bottom: 15px;
-  text-align: justify;
+  margin-bottom: 1px;
 }
 
 .curso-item .vagas {

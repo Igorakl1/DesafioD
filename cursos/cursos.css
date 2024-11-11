@@ -30,23 +30,10 @@
 
 .cursos {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
-  max-width: 1400px;
-  margin: 0 auto;
-}
-
-.curso-item {
-  padding: 20px;
-  border-radius: 4px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-.curso-item img {
-  width: 100%;
-  height: 200px;
-  object-fit: cover;
-  border-radius: 4px;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 20px;
+  margin-bottom: 30px;
+  row-gap: 40px;
 }
 
 .curso-item .h3 {
@@ -56,7 +43,6 @@
 
 .curso-item span {
   display: block;
-  font-size: 1rem;
   font-weight: bold;
   color: black;
   margin: 20px 0;
@@ -71,6 +57,92 @@
 }
 
 .curso-item .inscricoes {
+  .cursos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-bottom: 30px;
+  }
+
+  .curso-item .h3 {
+    font-size: 1.325rem;
+    color: black;
+    margin-bottom: 10px;
+  }
+
+  .curso-item span {
+    display: block;
+    font-weight: bold;
+    color: black;
+    margin: 10px 0;
+    font-family: "Poppins", sans-serif;
+  }
+
+  .curso-item p {
+    color: gray;
+    font-size: 1.125rem;
+    flex-grow: 1;
+  }
+
+  .curso-item .inscricoes {
+    text-align: center;
+    color: red;
+    font-weight: bold;
+  }
+
+  @media (max-width: 800px) {
+    .cursos {
+      grid-template-columns: 1fr;
+    }
+    .curso-item img {
+      height: 180px;
+    }
+    .curso-item .h3 {
+      font-size: 1.2rem;
+    }
+  }
+
+  @media (max-width: 600px) {
+    .cursos {
+      grid-template-columns: 1fr;
+      gap: 15px;
+    }
+    .curso-item img {
+      display: none;
+    }
+    .introducao-bg {
+      padding: 30px 10px;
+    }
+    .curso-item {
+      padding: 15px;
+    }
+    .curso-item .h3 {
+      font-size: 1.1rem;
+    }
+  }
+
+  @media (max-width: 400px) {
+    .cursos {
+      grid-template-columns: 1fr;
+      gap: 15px;
+    }
+    .curso-item img {
+      display: none;
+    }
+    .introducao-bg {
+      padding: 30px 10px;
+    }
+    .curso-item {
+      padding: 15px;
+    }
+    .curso-item .h3 {
+      font-size: 1.1rem;
+    }
+  }
+
+  margin: 20px;
+  margin-top: 0px;
+  justify-content: center;
   color: red;
   font-weight: bold;
 }
