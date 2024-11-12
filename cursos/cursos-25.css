@@ -8,7 +8,8 @@
 .cursos-bg h1 {
   margin-top: 20px;
   font-size: 2.6rem;
-  color: var(--color02);
+  color: blue;
+  text-transform: uppercase;
   text-align: start;
 }
 
@@ -24,7 +25,7 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
-  max-width: 1400px;
+  max-width: 1360px;
   margin: 0 auto;
 }
 
@@ -43,13 +44,13 @@
 
 .curso-item p {
   padding: 0px 20px;
-  color: var(--color02);
+  color: grey;
   font-size: 1.125rem;
   margin-bottom: 1px;
 }
 
 .curso-item .vagas {
-  color: red;
+  color: #ec5353;
   font-weight: bold;
 }
 
